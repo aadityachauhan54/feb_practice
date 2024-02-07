@@ -7,6 +7,7 @@ public class GitJavaProgram {
 		String ss[] = str.split(" ");
 		for(int i=ss.length-1;i>=0;i--) {
 			System.out.print(ss[i]+" ");
+			System.out.println("extra");
 		}
 
 		}
